@@ -79,8 +79,8 @@ def get_xsrf():
 class Stats:
 
     def __init__(self):
-        self.ui = loadUi('./init/dl.ui')
-        self.ui.setWindowIcon(QIcon('./init/b8888.ico'))
+        self.ui = loadUi('dl.ui')
+        self.ui.setWindowIcon(QIcon('b8888.ico'))
         make_dir()
         self.ui.resize(374, 285)
         self.ui.move(800, 300)
